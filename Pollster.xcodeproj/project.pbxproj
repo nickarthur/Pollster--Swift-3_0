@@ -3,25 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA40F9C01DBE23A600A20C3B /* CloudQandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40F9BF1DBE23A600A20C3B /* CloudQandATableViewController.swift */; };
 		EA46782E1DBCF38500904AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46782D1DBCF38500904AD4 /* AppDelegate.swift */; };
-		EA4678301DBCF38500904AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46782F1DBCF38500904AD4 /* ViewController.swift */; };
 		EA4678331DBCF38500904AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4678311DBCF38500904AD4 /* Main.storyboard */; };
 		EA4678351DBCF38500904AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4678341DBCF38500904AD4 /* Assets.xcassets */; };
 		EA4678381DBCF38500904AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4678361DBCF38500904AD4 /* LaunchScreen.storyboard */; };
+		EA4678441DBCFA4300904AD4 /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678401DBCFA4300904AD4 /* CloudKitExtensions.swift */; };
+		EA4678451DBCFA4300904AD4 /* QandAAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678411DBCFA4300904AD4 /* QandAAccessoryTableViewController.swift */; };
+		EA4678461DBCFA4300904AD4 /* QandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678421DBCFA4300904AD4 /* QandATableViewController.swift */; };
+		EA4678471DBCFA4300904AD4 /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4678431DBCFA4300904AD4 /* TextTableViewController.swift */; };
+		EA5AB41E1DBE99FC0099FF23 /* AllQandAsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AB41D1DBE99FC0099FF23 /* AllQandAsTableViewController.swift */; };
+		EA63B68C1DBEDADA003595C4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA63B68B1DBEDADA003595C4 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA40F9BF1DBE23A600A20C3B /* CloudQandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudQandATableViewController.swift; sourceTree = "<group>"; };
 		EA46782A1DBCF38500904AD4 /* Pollster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA46782D1DBCF38500904AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA46782F1DBCF38500904AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA4678321DBCF38500904AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA4678341DBCF38500904AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4678371DBCF38500904AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA4678391DBCF38500904AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4678401DBCFA4300904AD4 /* CloudKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitExtensions.swift; sourceTree = "<group>"; };
+		EA4678411DBCFA4300904AD4 /* QandAAccessoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAAccessoryTableViewController.swift; sourceTree = "<group>"; };
+		EA4678421DBCFA4300904AD4 /* QandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandATableViewController.swift; sourceTree = "<group>"; };
+		EA4678431DBCFA4300904AD4 /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
+		EA5AB41D1DBE99FC0099FF23 /* AllQandAsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllQandAsTableViewController.swift; sourceTree = "<group>"; };
+		EA63B6891DBEDAD6003595C4 /* Pollster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pollster.entitlements; sourceTree = "<group>"; };
+		EA63B68B1DBEDADA003595C4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA63B68C1DBEDADA003595C4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				EA46782C1DBCF38500904AD4 /* Pollster */,
 				EA46782B1DBCF38500904AD4 /* Products */,
+				EA63B68A1DBEDADA003595C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,36 @@
 		EA46782C1DBCF38500904AD4 /* Pollster */ = {
 			isa = PBXGroup;
 			children = (
+				EA63B6891DBEDAD6003595C4 /* Pollster.entitlements */,
 				EA46782D1DBCF38500904AD4 /* AppDelegate.swift */,
-				EA46782F1DBCF38500904AD4 /* ViewController.swift */,
+				EA5AB41D1DBE99FC0099FF23 /* AllQandAsTableViewController.swift */,
+				EA40F9BF1DBE23A600A20C3B /* CloudQandATableViewController.swift */,
 				EA4678311DBCF38500904AD4 /* Main.storyboard */,
+				EA46783F1DBCF9B900904AD4 /* Supporting Files */,
+			);
+			path = Pollster;
+			sourceTree = "<group>";
+		};
+		EA46783F1DBCF9B900904AD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				EA4678341DBCF38500904AD4 /* Assets.xcassets */,
 				EA4678361DBCF38500904AD4 /* LaunchScreen.storyboard */,
 				EA4678391DBCF38500904AD4 /* Info.plist */,
+				EA4678401DBCFA4300904AD4 /* CloudKitExtensions.swift */,
+				EA4678411DBCFA4300904AD4 /* QandAAccessoryTableViewController.swift */,
+				EA4678421DBCFA4300904AD4 /* QandATableViewController.swift */,
+				EA4678431DBCFA4300904AD4 /* TextTableViewController.swift */,
 			);
-			path = Pollster;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA63B68A1DBEDADA003595C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA63B68B1DBEDADA003595C4 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,13 +133,20 @@
 				TargetAttributes = {
 					EA4678291DBCF38500904AD4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 663TR68DHM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = EA4678251DBCF38500904AD4 /* Build configuration list for PBXProject "Pollster" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,8 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4678301DBCF38500904AD4 /* ViewController.swift in Sources */,
+				EA4678461DBCFA4300904AD4 /* QandATableViewController.swift in Sources */,
+				EA4678441DBCFA4300904AD4 /* CloudKitExtensions.swift in Sources */,
+				EA4678451DBCFA4300904AD4 /* QandAAccessoryTableViewController.swift in Sources */,
+				EA4678471DBCFA4300904AD4 /* TextTableViewController.swift in Sources */,
 				EA46782E1DBCF38500904AD4 /* AppDelegate.swift in Sources */,
+				EA5AB41E1DBE99FC0099FF23 /* AllQandAsTableViewController.swift in Sources */,
+				EA40F9C01DBE23A600A20C3B /* CloudQandATableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +310,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 663TR68DHM;
+				CODE_SIGN_ENTITLEMENTS = Pollster/Pollster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pollster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Deiman-Technology.Pollster";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pollster0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,12 +329,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 663TR68DHM;
+				CODE_SIGN_ENTITLEMENTS = Pollster/Pollster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pollster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Deiman-Technology.Pollster";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pollster0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +363,7 @@
 				EA46783E1DBCF38500904AD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
